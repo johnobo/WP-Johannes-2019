@@ -1,0 +1,138 @@
+/*
+Theme Name: Johannes 2019
+Theme URI:
+Author:
+Author URI:
+Description:
+Version: 1.0.7
+License:
+License URI:
+Text Domain: johannes2018
+Tags:
+
+*/
+
+/* ****************** *\
+ *       UI KIT       *
+ *   MODIFICATIONS    *
+\* ****************** */
+
+.uk-container {
+	background-color : transparent;
+}
+
+
+.uk-grid {
+}
+
+/* ****************** *\
+ *      GENERAL       *
+\* ****************** */
+body {
+}
+
+
+
+/* ****************** *\
+ *       TYPO         *
+\* ****************** */
+
+body {
+	font-family : 'Helvetica', 'Arial', sans-serif;
+	font-size : 14px;
+	line-height : 28px;
+	color : rgb(50, 50, 50 );
+}
+
+h1,
+h1 a {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 300;
+    text-transform: uppercase;
+	text-decoration : none;
+    color: rgb(75, 75, 75 );
+}
+h1.f-head--in_copy,
+h1.f-head--in_copy a {
+	float: left;
+    margin: 0px 10px 0px 0px;
+    padding: 20px 20px 15px 0px;
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+	h1.f-head--in_copy .f-head--in_copy_page {
+		display:block;
+		font-size : 16px;
+		line-height : 14px;
+		clear : both;
+	}
+
+h2,
+h2 a {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 300;
+    text-transform: uppercase;
+	text-decoration : none;
+    color: rgb(75, 75, 75 );
+}
+h3,
+h3 a {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size : 12px;
+	line-height : 14px;
+	font-weight : bold;
+	text-transform : uppercase;
+	text-decoration : none;
+	color : rgb(75, 75, 75 );
+}
+
+h4,
+h4 a {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size : 10px;
+	line-height : 14px;
+	font-weight : bold;
+	text-transform : uppercase;
+	text-decoration : none;
+	color : rgb(75, 75, 75 );
+}
+
+a {
+	color : rgb(135,135,135);
+	text-decoration : underline;
+}
+a:hover {
+	text-decoration : none;
+}
+
+em {
+	color : rgb(128, 128, 128);
+}
+
+/* ****************** *\
+ *        LOGO        *
+\* ****************** */
+.header-logo {
+	max-width : 100%;
+	margin : 25px 0px 25px 0px;
+	font-family : 'Open Sans Condensed', sans-serif;
+	font-weight : 300;
+	font-size : 25px;
+	text-transform : uppercase;
+	text-decoration : none;
+	letter-spacing : 10px;
+	color : rgb(45, 40, 55);
+}
+.header-logo__primary {
+
+}
+.header-logo__secondary {
+	color : rgb(135,135,135);
+}
+
+/* ****************** *\
+ *       PAGES        *
+\* ****************** */

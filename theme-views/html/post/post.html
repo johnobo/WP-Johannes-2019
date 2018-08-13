@@ -1,0 +1,19 @@
+<div class="uk-container">
+{{# posts }}
+	<div class="">
+		{{# image }}
+		<div class="">
+			<img src="{{ url }}">
+		</div>
+		{{/ image }}
+		<div class="">
+			<h1><a href="{{ link }}">{{ title }}</a></h1>
+			<p><em>{{ author.name_display }}</em></p>
+			<p>{{ excerpt }}</p>
+		</div>
+		<div class="">
+			{{{ content }}}
+		</div>
+	</div>
+{{/ posts }}
+</div>

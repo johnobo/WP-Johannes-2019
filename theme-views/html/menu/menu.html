@@ -1,0 +1,31 @@
+<nav>
+	<!-- Desktop Menu -->
+	<div class="uk-container">
+		<div class="">
+			<div class="">
+				{{{ main_menu }}}
+			</div>
+
+			<div class="">
+				<button class="" uk-toggle="target: #mobile_menu">
+					{{{ mobile_button.icon }}}
+					{{{ mobile_button.title }}}
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Mobile Menu -->
+	<div id="mobile_menu" uk-offcanvas="flip: true; overlay: true">
+	    <div class="uk-offcanvas-bar">
+	    	<div class="">
+	    		<h2 class="">{{{ mobile_menu.title }}}</h2>
+	    		<p class="">{{{ mobile_menu.description }}}</p>
+	    	</div>
+	        <ul class="">
+	        	{{{ mobile_menu.menu }}}
+	        </ul>
+	    </div>
+	</div>
+
+</nav>
